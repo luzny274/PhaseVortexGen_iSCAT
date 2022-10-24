@@ -1,0 +1,8 @@
+Loop_unrolling = 1
+Line_by_line(0), Randomizing(1), Segment_random(2) = 0
+Number_of_segmentations = 4
+Blur_when_resizing = 0
+Remove_zeros = 0
+Slow_down_drawing = 0
+Go_back_and_forth = 1
+Full_FOV = 1
