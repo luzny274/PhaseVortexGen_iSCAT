@@ -10,7 +10,7 @@ Heated parts of the plate then have different refraction indeces shifting the ph
 ![experiment](chess.png)
 
 ## Setup
-Arduino connects to two [Direct digital synthesisers (DDS)]([https://pages.github.com/](http://www.aaoptoelectronic.com/our-products/dds-direct-digital-synthesizers/)) controlling the output voltage frequency and amplitude. DDSs then connect to corresponding Acousto-Optic deflectors.
+Arduino connects to two [Direct digital synthesisers (DDS)](http://www.aaoptoelectronic.com/our-products/dds-direct-digital-synthesizers/) controlling the output voltage frequency and amplitude. DDSs then connect to corresponding Acousto-Optic deflectors.
 
 As the speed of the sampling rate is crucial to prevent cool down of the ruby plate, we chose to use Arduino Due for its high cpu frequency of 80MHz.
 
