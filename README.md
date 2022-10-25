@@ -19,7 +19,7 @@ As the speed of the sampling rate is crucial to prevent cool down of the ruby pl
 ## Usage
 
 ### convert.exe
-When running this program, you will be asked to write path to the image you want to convert, the image number, and the output image resolution. Then a file called image\<number\>.h gets created, containing drawing instructions for the arduino, according to the settings set in the "settings.txt" file.
+When running this program, you will be asked to input the path of the image you want to convert, the image number, and the output image resolution. Then a file called image\<number\>.h gets created, containing drawing instructions for the arduino, according to the settings set in the "settings.txt" file.
   
 The resolution of the output image must always be lower than 128x128.
   
@@ -38,11 +38,11 @@ An optimization in drawing. Greatly increases the compile time and decreases the
   
 ### Drawing mode
 #### Line_by_line
-Draw the image line by line
+Draw the image line by line. This option works the best in our setup.
 #### Randomizing
-Draw the pixels in random order
+Draw the pixels in random order.
 #### Segment_random
-Randomly go through segments of the image and draw the pixels in random order inside
+Randomly go through segments of the image and draw the pixels in random order inside.
   
 ### Number_of_segmentations
 Number of segmentations when using mode Segment_random
@@ -51,7 +51,7 @@ Number of segmentations when using mode Segment_random
 When enabled, resized image is blurred using linear interpolation.
   
 ### Remove_zeros
-Skips the drawing of pixel with intensity 0.
+Skips the drawing of pixels with intensity 0.
   
 ### Slow_down_drawing
 Artificially slow down drawing.
