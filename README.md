@@ -62,5 +62,5 @@ Every even frame gets drawn in the opposite direction, so the position of the de
 ### Full_FOV
 When using lower resolutions, the image is still drawn in the full FOV of the deflectors.
 
-##Compilation
+## Compilation
 We surprisingly found out that our programs for arduino give the best performance while using optimization flag "-Og" when compiling.
