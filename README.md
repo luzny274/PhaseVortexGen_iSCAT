@@ -27,7 +27,7 @@ The resolution of the output image must always be lower than 128x128.
 This program includes a file image1.h and draws it using the deflectors.
   
 ### amp_control_multiple-imgs.ino
-This program includes files image<number>.h, where number goes from 1 to 9, and draws it using the deflectors. You can change the image being drawn by selecting a corresponding number on the keypad connected to arduino.
+This program includes files image\<number\>.h, where number goes from 1 to 9, and draws it using the deflectors. You can change the image being drawn by selecting a corresponding number on the keypad connected to arduino.
   
 ## Settings
   
