@@ -34,7 +34,7 @@ You can then measure the drawing performance using \# button on the keypad. The 
 ## Settings
   
 ### Loop_unrolling
-An optimization in drawing. Greatly increases the compile time and decreases the drawing time. With this option enabled we usually get a sampling rate of ~35MHz, compared to ~7MHz, when turned off.
+An optimization in drawing. Greatly increases the compile time and decreases the drawing time. With this option enabled we usually get a sampling rate of ~35MHz, compared to ~7MHz, when disabled.
   
 ### Drawing mode
 #### Line_by_line
