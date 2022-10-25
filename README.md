@@ -25,3 +25,19 @@ Program "amp_control_fast.ino" includes a file image1.h and draws it using the d
 Program "amp_control_multiple-imgs.ino" includes files image<number>.h, where number goes from 1 to 9, and draws it using the deflectors. You can change the image being drawn by selecting a corresponding number on the keypad connected to arduino.
   
 ## Settings
+### Loop_unrolling
+An optimization in drawing. Greatly increases the compile time and decreases the drawing time. With this option enabled we usually get a sampling rate of ~35MHz, compared to ~7MHz. when turned off.
+###Drawing mode
+####Line_by_line
+Draw the image line by line
+####Randomizing
+Draw the pixels in random order
+####Segment_random
+Randomly go through segments of the image and draw the pixels in random order inside
+###Number_of_segmentations
+Number of segmentations when using mode Segment_random
+###Blur_when_resizing
+###Remove_zeros
+###Slow_down_drawing
+###Go_back_and_forth
+###Full_FOV
