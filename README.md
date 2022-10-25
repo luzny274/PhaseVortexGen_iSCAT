@@ -27,7 +27,7 @@ Program "amp_control_multiple-imgs.ino" includes files image<number>.h, where nu
 ## Settings
   
 ### Loop_unrolling
-An optimization in drawing. Greatly increases the compile time and decreases the drawing time. With this option enabled we usually get a sampling rate of ~35MHz, compared to ~7MHz. when turned off.
+An optimization in drawing. Greatly increases the compile time and decreases the drawing time. With this option enabled we usually get a sampling rate of ~35MHz, compared to ~7MHz, when turned off.
   
 ### Drawing mode
   
