@@ -7,7 +7,7 @@ By periodically deflecting green laser onto a ruby plate, in such a way that the
 
 Heated parts of the plate then have different refraction indeces. And so the red laser passing through the plate creates a phase vortex.
 
-![experiment](chess_intensity.png)
+![experiment](chess.png)
 
 ## Setup
 ![Optics](optics_setup.png)
