@@ -19,7 +19,7 @@ As the speed of the sampling rate is crucial to prevent cool down of the ruby pl
 ## Usage
 
 ### convert.exe
-When running this program, you will be asked to input the path of the image you want to convert, the image \<number\>, and the output image resolution. Then a file called image\<number\>.h gets created, containing drawing instructions for the arduino, according to the settings set in the "settings.txt" file.
+When running this program, you will be asked to input the path of the image you want to convert, the image \<number\> and the output image resolution. Then a file called image\<number\>.h gets created, containing drawing instructions for the arduino, according to the settings set in the "settings.txt" file.
   
 The resolution of the output image must always be lower than 128x128.
   
