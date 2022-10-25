@@ -29,7 +29,7 @@ This program includes a file image1.h and is compiled and uploaded into the ardu
 ### amp_control_multiple-imgs.ino
 This program includes files image\<number\>.h, where number goes from 1 to 9, and draws the corresponding image. You can change the image being drawn by selecting a corresponding number on the keypad connected to arduino.
 
-You can then measure the drawing performance using \# button on the keypad. The information gets printed in the corresponding serial port with bitrate 9600bps.
+You can then measure the drawing performance using \# button on the keypad. The information gets printed to the corresponding serial port with bitrate 9600bps.
   
 ## Settings
   
