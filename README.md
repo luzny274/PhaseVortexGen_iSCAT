@@ -28,6 +28,8 @@ This program includes a file image1.h and draws it using the deflectors.
   
 ### amp_control_multiple-imgs.ino
 This program includes files image\<number\>.h, where number goes from 1 to 9, and draws it using the deflectors. You can change the image being drawn by selecting a corresponding number on the keypad connected to arduino.
+
+You can then measure the drawing performance using \# button on the keypad. The information is then printed in the corresponding serial port with bitrate 9600bps.
   
 ## Settings
   
