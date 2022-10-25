@@ -19,7 +19,7 @@ As the speed of the sampling rate is crucial to prevent cool down of the ruby pl
 ## Usage
 
 ### convert.exe
-When running this program, you will be asked to write image number, path to the image and the output image resolution. Then a file called image<number>.h gets created, as well as some other files that exist for debugging purposes, according to the settings set in the "settings.txt" file.
+When running this program, you will be asked to write image number, path to the image and the output image resolution. Then a file called image\<number\>.h gets created, as well as some other files that exist for debugging purposes, according to the settings set in the "settings.txt" file.
   
 The resolution of the output image must always be lower than 128x128.
   
