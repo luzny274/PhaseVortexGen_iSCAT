@@ -60,7 +60,7 @@ Artificially slow down drawing.
 Every even frame gets drawn in the opposite direction, so the position of the deflected beam always changes continuosly when using Line_by_line drawing mode.
   
 ### Full_FOV
-When using lower resolutions, the image is still drawn in the full FOV of the deflectors.
+When using lower resolutions, the image is still drawn in the full field of view of the deflectors.
 
 ## Compilation
 We surprisingly found out that our programs for arduino give the best performance while using optimization flag "-Og" when compiling.
