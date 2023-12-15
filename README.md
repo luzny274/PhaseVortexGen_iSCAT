@@ -1,9 +1,11 @@
 # PhaseVortexGen_iSCAT
 
 ## Description
-Acousto-Optic deflectors deflect part of the laser beam using vibrating piezo crystals under voltage. Where the voltage frequency determines the deflected angle and amplitude determines the intensity of the deflected part.
+Acousto-Optic deflectors deflect part of the laser beam using vibrating piezo crystals, under voltage. The voltage frequency and amplitude determine the deflected angle and intensity of the deflected part, respectively.
 
-By periodically deflecting green laser onto a ruby plate, in such a way that the laser scans through a square while changing amplitude according to the corresponding pixel of some image, we create a heat signature on the plate. 
+By periodically deflecting green laser onto a ruby plate, in such a way that the laser scans through a square while changing amplitude according to the corresponding pixel of some image, we create a heat signature on the plate, thus changing refraction indices at different positions.
+
+Light will change its phase at different positions while passing through such plate.
 
 ![experiment](chess.png)
 
